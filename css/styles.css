@@ -1,4 +1,15 @@
 /* General Styles */
+
+h2
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+	
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #275c64;
     color: white;
     padding: 20px;
     text-align: center;
@@ -34,7 +45,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #275c64;
     color: white;
     text-align: center;
     padding: 10px;
