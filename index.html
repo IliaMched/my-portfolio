@@ -128,6 +128,9 @@ document.getElementById('darkModeToggle').addEventListener('click', function () 
     document.querySelectorAll('input, textarea').forEach(element => {
         element.classList.toggle('dark-mode');
     });
+    document.querySelectorAll('h2').forEach(h2 => {
+        h2.classList.toggle('dark-mode');
+    });
 });
 
 </script>
